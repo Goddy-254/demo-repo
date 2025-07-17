@@ -1,0 +1,114 @@
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background: rgba(0,0,0,0.7) url(thumbnails/picha2.jpg) center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+   
+
+.navbar ul {
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover {
+    background: black;
+    transition: .5s;
+    cursor: pointer;
+
+
+}
+.header{
+    color:orangered;
+    margin-left: 10px;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color:white;
+
+}
+
+.content h2{
+
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30%;
+}
+.content p1 {
+  
+    font-size: 50px;
+}
+
+.content p2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 17px;
+    color: black;
+}
+.search {
+
+    position:absolute;
+    margin-top: 210px;
+    margin-left: 36%;
+}
+.search input {
+
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    width: 200px;
+}
+.submit {
+
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 42%;
+    height: 15px;
+}
+    
+.submit a {
+    text-decoration: none;
+    color: white;
+    background: orangered;
+    padding: 12px 12px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.footer {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    color: white;
+
+}

@@ -1,0 +1,22 @@
+body{
+    background-image: url(thumbnails/picha.jpg);
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    color:white;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    
+}
+.form-group label {
+    vertical-align: top;
+     margin-bottom: 5px;
+} 
